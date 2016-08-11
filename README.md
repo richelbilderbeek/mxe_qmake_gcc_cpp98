@@ -8,3 +8,7 @@ This GitHub is part of [the MXE Tutorial](https://github.com/richelbilderbeek/mx
 
 It uses the code from [travis_qmake_gcc_cpp98](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
 and cross-compiles this to a Windows executable.
+
+## Simpler builds
+
+ * No qmake as build system: [mxe_gcc_cpp98](https://github.com/richelbilderbeek/mxe_gcc_cpp98)
