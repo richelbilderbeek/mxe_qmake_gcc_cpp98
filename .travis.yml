@@ -1,3 +1,5 @@
+sudo: required
+
 install:
   - ./install_mxe.sh
   - ./download_code.sh
