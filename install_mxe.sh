@@ -1,18 +1,20 @@
 #!/bin/sh
 
-# Install the MXE prerequisites
+echo "Install the MXE prerequisites"
 sudo apt-get install autopoint gperf intltool p7zip-full
 
-# Clone the GitHub
+echo "Clone the GitHub"
 git clone https://github.com/mxe/mxe.git
 
-# Add MXE to the path
+echo "Add MXE to the path"
 echo "export PATH=`pwd`/mxe/usr/bin:$PATH" >> ~/.bashrc
 
-# Go into the MXE folder
+echo "Go into the MXE folder"
 cd mxe
 
-# Build MXE with GCC
-make gcc qmake
+echo "Build MXE with GCC"
+make gcc
 
+echo "Build MXE with qmake"
+make qt
 
