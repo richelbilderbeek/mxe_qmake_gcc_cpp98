@@ -1,0 +1,6 @@
+install:
+  - ./install_mxe.sh
+  - ./download_code.sh
+
+script: 
+  - ./cross_compile.sh

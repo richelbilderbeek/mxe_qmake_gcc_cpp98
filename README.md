@@ -1,2 +1,10 @@
 # mxe_qmake_gcc_cpp98
-Minimal C++98 project using qmake and checked by Travis to cross-compile using MXE
+
+[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
+
+[![Build Status](https://travis-ci.org/richelbilderbeek/mxe_qmake_gcc_cpp98.svg?branch=master)](https://travis-ci.org/richelbilderbeek/mxe_qmake_gcc_cpp98)
+
+This GitHub is part of [the MXE Tutorial](https://github.com/richelbilderbeek/mxe_tutorial).
+
+It uses the code from [travis_qmake_gcc_cpp98](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
+and cross-compiles this to a Windows executable.
