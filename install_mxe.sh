@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Install prerequisites
+# Install the MXE prerequisites
 sudo apt-get install autopoint gperf intltool p7zip-full
 
 # Clone the GitHub
