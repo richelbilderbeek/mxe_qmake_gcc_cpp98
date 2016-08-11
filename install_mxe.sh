@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install prerequisites
-sudo apt-get install autopoint gperf intltoolize 7za
+sudo apt-get install autopoint gperf intltool p7zip-full
 
 # Clone the GitHub
 git clone https://github.com/mxe/mxe.git
