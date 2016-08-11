@@ -13,6 +13,6 @@ echo "export PATH=`pwd`/mxe/usr/bin:$PATH" >> ~/.bashrc
 cd mxe
 
 # Build MXE with GCC
-make gcc
+make gcc qmake
 
 
