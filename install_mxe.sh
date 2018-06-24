@@ -1,17 +1,13 @@
 #!/bin/sh
 
 echo "Install the MXE prerequisites"
-sudo apt-get install \
-  7za \
-  autopoint \
-  bison \
-  flex \
-  gperf \
-  intltool \
-  intltoolize \
-  libtool \
-  p7zip-full \
-  scons
+
+# Package name | Dependency name
+# -------------|---
+# p7zip-full   | 7za
+
+# Must be one line!
+sudo apt install p7zip-full autopoint gettext bison flex gperf intltool libtool p7zip-full ruby scons
 
 echo "Clone the GitHub"
 git clone https://github.com/mxe/mxe.git
